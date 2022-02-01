@@ -1,0 +1,215 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+a, input {
+    transition: all 0,4s ease-out;
+}
+header .container {
+    width: 85%;
+    text-align: center;
+}
+.container {
+    width: 75%;
+    margin: auto;
+}
+.headertop {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    align-items: center;
+}
+.headertop a {
+    color: #000;
+    text-decoration: none;
+}
+.headertop a:hover {
+    color: #b30000;
+    text-decoration: underline;
+}
+.ikony {
+    font-size: 22px;
+}
+.fa-facebook-square:hover {
+    color: #1877F2;
+}
+.fa-instagram-square:hover {
+    color: #E4405F;
+}
+.fa-twitter-square:hover {
+    color: #1DA1F2;
+}
+.logo {
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+.logo:hover {
+    color: #b30000;
+}
+.menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 40px 0;
+}
+.menu ul li {
+    margin: 0 40px;
+}
+.menu ul li a {
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.menu ul li:hover {
+    transform: scale(1.1);
+}
+.menu ul li a:hover {
+    border-bottom: 3px solid #000;
+}
+header img {
+    width: 100%;
+    vertical-align: top;
+}
+/*Section*/
+.obsah {
+    padding: 50px 0 150px;
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+    padding: 50px 0;
+}
+.obsah h2 {
+    color: #b30000;
+    padding-bottom: 70px;
+}
+.obsah p {
+    line-height: 2;
+}
+/*Footer*/
+.pata {
+    background: #eaeaea;
+    padding: 40px 0;
+    text-align: center;
+}
+.pata .logo {
+    font-size: 20px;
+}
+.pataText {
+    padding: 30px;
+}
+.pataText p,
+.kontaktRamecek {
+    line-height: 26px;
+}
+.pataText p a,
+.kontaktRamecek p a {
+    color: #000;
+    text-decoration: none;
+}
+.pataText p a:hover
+.kontaktRamecek p a:hover {
+    color: #b30000;
+    text-decoration: underline;
+}
+.pataText p i,
+.kontaktRamecek p i {
+    margin-right: 15px;
+}
+.pata .ikony a {
+    color: #000;
+}
+.copy {
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+}
+/*kontakt*/
+.kontakt {
+    padding: 100px 0;
+    text-align: center;
+}
+.kontaktBox {
+    background-color: #eaeaea;
+    padding: 0 30px 50px;
+}
+.kontaktFlex {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.kontaktRamecek {
+    text-align: left;
+}
+.karty i {
+    font-size: 40px;
+    margin: 15px 3px 0;
+}
+.kontakt iframe {
+    width: 100%;
+    vertical-align: top;
+    margin: 10px 0;
+}
+.kontaktBox h2 {
+    padding: 50px 0;
+}
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    padding: 10px;
+    font-size: 16px;
+    display: block;
+    width: 70%;
+    margin: 0 auto 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline-color: #b30000;
+    font-family: 'Montserrat', sans-serif;
+}
+textarea {
+    height: 130px;
+}
+input[type="submit"] {
+    font-size: 16px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    border: 2px solid black;
+    background: #fff;
+    color: black;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+input[type="submit"]:hover {
+    background: red;
+    color: #fff;
+    border-color: red;
+    cursor: pointer;
+}
+/*galeire*/
+.foto img {
+    width: 95%;
+    margin: 5px;
+}
+
+.foto a {
+    width: 25%;
+}
+
+.foto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
